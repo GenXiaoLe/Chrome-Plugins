@@ -1,0 +1,29 @@
+{
+  "name": "Xiao_Plugins",
+  "description": "浏览器小插件",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": {
+    "name": "LiangYG"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "browser_action": {
+    "default_popup": "main.html",
+    "default_icon": "logo.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "web_accessible_resources": []
+}
