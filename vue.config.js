@@ -12,7 +12,7 @@ module.exports = {
     newtbas: {
       entry: 'src/pages/newtab/main.js',
       template: 'public/newtab.html',
-      title: 'newtab',
+      title: '网站助手-V1.0',
       filename: 'newtab.html'
     }
   }

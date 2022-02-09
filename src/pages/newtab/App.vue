@@ -1,11 +1,13 @@
 <template>
   <div id="newtab">
-    newtabs
+    <Container />
   </div>
 </template>
 
 <script>
+  import Container from './layout/container.vue'
   export default {
-    name: 'newtab'
+    name: 'newtab',
+    components: { Container }
   }
 </script>
